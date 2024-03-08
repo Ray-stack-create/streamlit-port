@@ -15,10 +15,10 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
 
-local_css(r"C:\Users\KIIT\Desktop\Streamlit\Ref\style\style.css")
-img_temp=Image.open(r'C:\Users\KIIT\Desktop\Streamlit\Ref\images\Temp.png')
-img_net=Image.open(r"C:\Users\KIIT\Desktop\Streamlit\Ref\images\Netflix.png")
-img_port=Image.open(r"C:\Users\KIIT\Desktop\Streamlit\Ref\images\Portfolio.png")
+local_css(r"style.css")
+img_temp=Image.open(r'Temp.png')
+img_net=Image.open(r"Netflix.png")
+img_port=Image.open(r"Portfolio.png")
 lottie_coding=load_lottieurl("https://lottie.host/1aa6bafd-8d13-4bcc-bf26-7b1a587e49cd/x4HC0OGULC.json")
 
 
